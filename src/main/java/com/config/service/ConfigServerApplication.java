@@ -6,10 +6,10 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
 @EnableConfigServer
-public class AccountService1Application {
+public class ConfigServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AccountService1Application.class, args);
+		SpringApplication.run(ConfigServerApplication.class, args);
 	}
 
 }
